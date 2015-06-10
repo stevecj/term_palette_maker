@@ -1,67 +1,15 @@
-# React, React-Bootstrap, and ES-6 on Rails via WebPack
+# Terminal Palette Maker
 
-By Justin Gordon and the Rails On Maui Team, http://www.railsonmaui.com
+Note: This is a project in early development and is not yet useful.
 
-- If you came to here from the blog article, this example project has evolved. See CHANGELOG.md for 
-  what's changed.
-- Please email us at [justin@railsonmaui.com](mailto:justin@railsonmaui.com) if you have a ReactJs +
-  Rails project.
-- Please file issues for problems and feature requests.
-- Pull requests are welcome!
-- If this work interests you and you are looking for full or part-time remote work, please
-  [click here](http://forum.railsonmaui.com/t/railsonmaui-is-hiring-and-partnering-part-time-remote-is-ok/156).
-- Feel free to open discussions at [forum.railsonmaui.com](http://www.forum.railsonmaui.com).
+The goal of this project is to be a tool for interactively building color
+palettes for use in text terminal programs.
 
-A Full tutorial article can be found at: [Fast Rich Client Rails Development With Webpack and the ES6 Transpiler](http://www.railsonmaui.com/blog/2014/10/02/integrating-webpack-and-the-es6-transpiler-into-an-existing-rails-project/)
 
-Note, this source code repository is going to be ahead of the tutorial. We plan to update the tutorial soon.
-
-[Discussion forum regarding the tutorial](http://forum.railsonmaui.com/t/fast-rich-client-rails-development-with-webpack-and-the-es6-transpiler/82/10)
-
-# Example Application
-This is a simple example application that illustrates the use of ReactJs to implement a commenting
-system. Front-end code leverages both ReactJs and Rails asset pipeline while the backend is 100% Rails.
-It shows off a little bit of the interactivity of a ReactJs application, allowing the commmenter to
-choose the form layout. `react-bootstrap` is used for the React components.
-
-A pure Rails UI generated from scaffolding is shown for comparison.
-
-You can see this tutorial live here: [http://react-webpack-rails-tutorial.herokuapp.com/](http://react-webpack-rails-tutorial.herokuapp.com/)
-
-# Motivation
-
-In no particular order:
-
-- Example of Rails 4.2 with ReactJs/Flux with Webpack and ES6.
-- Enable development of a JS client independently from Rails using Webpack Hot Module Reload.
-- Easily enable use of npm modules with a Rails application.
-- Easily enable retrofitting such a JS framework into an existing Rails app.
-- Enable the use of the JavaScript ES6 transpiler.
-- Example setting up Ruby and ES6 linting in a real project.
-
-# Technologies involved
-
-See package.json and Gemfile for versions
-
-1. React (for front-end app)
-2. React-bootstrap
-3. [Flux Alt](https://github.com/goatslacker/alt)
-4. Webpack with hot-reload (for local dev)
-5. ES6 transpiler (es6-loader)
-6. Rails 4.2 (for backend app)
-7. Heroku (for deployment)
-
-# Basic Setup
-1. Be sure that you have Node installed. I use [nvm](https://github.com/creationix/nvm), with node version `v0.10.33`.
-1. `git clone git@github.com:justin808/react-webpack-rails-tutorial.git`
-1. `cd react-webpack-rails-tutorial`
-1. Check that you have Ruby 2.1.5 and the gemset Rails 4.2 (this might change in the future)
-1. `bundle install`
-1. `npm install`
-1. `rake db:setup`
-1. `foreman start -f Procfile.dev`
-1. Open a browser tab to [http://0.0.0.0:4000]() for the Rail app example.
-1. Open a browser tab to [http://0.0.0.0:3000]() for the Hot Module Replacement Example.
+This project was spawned by forking from
+https://github.com/justin808/react-webpack-rails-tutorial
+on June 9, 2015.  The content below is retained from the original README in
+that project.
 
 # Javascript development without Rails using Hot Module Replacement (HMR)
 
